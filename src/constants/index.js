@@ -1,11 +1,15 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = ` As a passionate and dedicated software developer, I specialize in the MERN stack with a particular focus on frontend technologies such as HTML, CSS, JavaScript, and React. My journey in software development has been driven by a deep commitment to continuous improvement and excellence, both in my technical skills and in my professional growth..`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `With a strong foundation in data structures and algorithms, I bring a problem-solving mindset to every project I work on. I thrive on tackling complex challenges and delivering clean, efficient code that enhances user experience and meets business objectives.
+
+Hard work is at the core of my approach. I am constantly seeking new opportunities to learn and grow, whether it's by mastering the latest frontend technologies, refining my coding practices, or collaborating with others to build innovative solutions. I believe that true success comes from not just doing the work, but from pushing myself to achieve more, learn more, and contribute more with every project.
+
+I am excited about the future of technology and am committed to playing an active role in shaping it. As I continue to hone my skills and expand my knowledge, I look forward to making a meaningful impact in the tech industry and contributing to the success of the teams and projects I am part of.`;
 
 export const EXPERIENCES = [
   {
@@ -41,13 +45,6 @@ export const PROJECTS = [
     description:
       "Integrated multiple databases of AICTE by creating a search engine and using various indexing algorithms.",
     technologies: ["React", "Mongodb","AWS"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwindcss"],
   },
   {
     title: "TicTacToe Online",
