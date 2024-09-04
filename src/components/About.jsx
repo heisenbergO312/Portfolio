@@ -1,7 +1,7 @@
-import React from 'react'
-import aboutImg from "../assets/about.jpg"
-import { ABOUT_TEXT } from '../constants'
-import {motion} from "framer-motion"
+import React from 'react';
+import aboutImg from "../assets/about.jpg";
+import { ABOUT_TEXT } from '../constants';
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -26,7 +26,6 @@ const About = () => {
           </div>
         </motion.div>
         
-        {/* Text Section */}
         <motion.div 
            whileInView={{opacity:1,x:0}}
            initial={{opacity:0,x:100}}
@@ -35,10 +34,23 @@ const About = () => {
           <div className='flex justify-center lg:justify-start'>
             <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
           </div>
+          <motion.div
+            whileInView={{opacity:1,x:0}}
+            initial={{opacity:0,x:100}}
+            transition={{duration:0.5}}
+           className='flex justify-center lg:justify-start mt-4'>
+            <a 
+              href="https://drive.google.com/file/d/1RvkGNlssLpFI-M5DukaVpD39PKR2KvSB/view?usp=drive_link" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className='border border-white bg-transparent text-white font-light py-2 px-4 rounded-lg hover:bg-cyan-600 transition duration-300 ease-in-out'>
+              View Resume
+            </a>
+          </motion.div>
         </motion.div>
       </div>
     </div>
   )
 }
 
-export default About
+export default About;
