@@ -40,7 +40,7 @@ const About = () => {
             transition={{duration:0.5}}
            className='flex justify-center lg:justify-start mt-4'>
             <a 
-              href="https://drive.google.com/file/d/1RvkGNlssLpFI-M5DukaVpD39PKR2KvSB/view?usp=drive_link" 
+              href="https://drive.google.com/file/d/11Rem2_xiugg8YH9REx8TCDNurZt8iIJg/view" 
               target="_blank" 
               rel="noopener noreferrer"
               className='border border-white bg-transparent text-white font-light py-2 px-4 rounded-lg hover:bg-cyan-600 transition duration-300 ease-in-out'>
